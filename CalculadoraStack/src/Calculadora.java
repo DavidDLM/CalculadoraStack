@@ -95,7 +95,13 @@ public class Calculadora {
 	         			}
 	         			else
 	         			{
-	         				stackValores.push(Integer.parseInt(caracter));
+	         				//Verifica si el char es un entero el cual se puede operar
+	         				try {
+	         					Integer.parseInt(caracter);
+	         					stackValores.push(Integer.parseInt(caracter));
+	         				}catch (Exception e) {
+	         					System.out.println("El archivo contiene un caracter no valido.");
+	         				}
 	         			}
 	         		}
 	         	}
