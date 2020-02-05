@@ -59,7 +59,7 @@ public class Calculadora {
 	         				int valorB = stackValores.pop();
 	         				int valorA = stackValores.pop();
 	         				
-	         				stackValores.push(calculadora.sum(valorA, valorB));
+	         				stackValores.push(calculadora.sumar(valorA, valorB));
 	         				
 	         				stackOperadores.pop();
 	         			}
@@ -70,7 +70,7 @@ public class Calculadora {
 	         				int valorB = stackValores.pop();
 	         				int valorA = stackValores.pop();
 	         				
-	         				stackValores.push(calculadora.substraction(valorA, valorB));
+	         				stackValores.push(calculadora.restar(valorA, valorB));
 	         				stackOperadores.pop();
 	         			}
 	         			else if (caracter.equals("*"))
@@ -80,7 +80,7 @@ public class Calculadora {
 	         				int valorB = stackValores.pop();
 	         				int valorA = stackValores.pop();
 	         				
-	         				stackValores.push(calculadora.multiply(valorA, valorB));
+	         				stackValores.push(calculadora.multiplicar(valorA, valorB));
 	         				stackOperadores.pop();
 	         			}
 	         			else if (caracter.equals("/"))
@@ -90,7 +90,7 @@ public class Calculadora {
 	         				int valorB = stackValores.pop();
 	         				int valorA = stackValores.pop();
 	         				
-	         				stackValores.push(calculadora.division(valorA, valorB));
+	         				stackValores.push(calculadora.dividir(valorA, valorB));
 	         				stackOperadores.pop();
 	         			}
 	         			else
