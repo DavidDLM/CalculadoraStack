@@ -3,31 +3,31 @@
  * @author Mariana Morales
  *
  */
-public class CalculadoraFunciones implements OperacionesInterface{
+public class CalculadoraFunciones implements iCalculadora{
 
 	@Override
-	public int sum(int a, int b) {
+	public int sumar(int a, int b) {
 		// TODO Auto-generated method stub
 		int resultado = a+b;
 		return resultado;
 	}
 
 	@Override
-	public int substraction(int a, int b) {
+	public int restar(int a, int b) {
 		// TODO Auto-generated method stub
 		int resultado = a-b;
 		return resultado;
 	}
 
 	@Override
-	public int multiply(int a, int b) {
+	public int multiplicar(int a, int b) {
 		// TODO Auto-generated method stub
 		int resultado = a*b;
 		return resultado;
 	}
 
 	@Override
-	public int division(int a, int b) {
+	public int dividir(int a, int b) {
 		// TODO Auto-generated method stub
 		int resultado = 0;
 		try {
