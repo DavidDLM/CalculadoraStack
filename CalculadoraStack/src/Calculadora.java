@@ -42,7 +42,7 @@ public class Calculadora {
 	        	for(int i=0; i<linea.length(); i++)
 	         	{
 	        		String caracter = String.valueOf(linea.charAt(i));
-	         		System.out.println("caracter: "+caracter);
+	         		//System.out.println("caracter: "+caracter);
 	         		
 	         		//Logica para pasar infix a postfix
 	         		
