@@ -3,7 +3,7 @@
  * @author Mariana Morales
  *
  */
-public interface Stack<E> {
+public interface iStack<E> {
 	   public void push(E item);
 	   // pre: 
 	   // post: item is added to stack
