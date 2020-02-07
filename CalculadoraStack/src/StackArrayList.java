@@ -5,7 +5,7 @@
  */
 import java.util.ArrayList;
 
-public class StackArrayList<E> implements Stack<E>
+public class StackArrayList<E> implements iStack<E>
 {
 	protected ArrayList<E> data;
 
