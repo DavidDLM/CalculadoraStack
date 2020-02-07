@@ -30,8 +30,8 @@ public class Calculadora {
 	         fr = new FileReader (archivo);
 	         br = new BufferedReader(fr);
 	         
-	         Stack<String> stackOperadores = new StackArrayList<String>();
-	         Stack<Integer> stackValores = new StackArrayList<Integer>();
+	         iStack<String> stackOperadores = new StackArrayList<String>();
+	         iStack<Integer> stackValores = new StackArrayList<Integer>();
 	         
 
 	         // Lectura del fichero
